@@ -35,10 +35,10 @@ PLATFORMS
 DEPENDENCIES
   bigbang!
   bundler (~> 2.0)
-  rack-test
+  rack-test (~> 1.1.0)
   rake (~> 10.0)
   rspec (~> 3.0)
-  test-unit
+  test-unit (~> 3.3.3)
 
 BUNDLED WITH
    2.0.2
