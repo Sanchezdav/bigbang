@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_runtime_dependency "rack", "~> 2.0.7"
+  spec.add_runtime_dependency "rack", ">= 2.0.7", "< 2.3.0"
   spec.add_development_dependency "rack-test", "~> 1.1.0"
   spec.add_development_dependency "test-unit", "~> 3.3.3"
 end
